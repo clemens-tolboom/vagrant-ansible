@@ -37,6 +37,8 @@ First install [VirtualBox 4.1.x](https://www.virtualbox.org/wiki/Downloads):
 
 Install ansible using the instructions on the ansible [homepage](http://ansible.github.com/gettingstarted.html)
 
+### Install using GEM
+
 Then install the vagrant gem:
 
     gem install vagrant --version ">= 1.0"
@@ -44,7 +46,9 @@ Then install the vagrant gem:
 Then install the vagrant-ansible gem:
 
     gem install vagrant-ansible
-    
+
+### Install through vagrant
+
 If you installed vagrant using a package from [vagrant homepage](http://downloads.vagrantup.com/) you have to install vagrant-ansible via the vagrant command:
 
     vagrant gem install vagrant-ansible
